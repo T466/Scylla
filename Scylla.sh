@@ -57,4 +57,9 @@ echo "rsync -aXS root@$ip:/var/log /spool.data.log/SRV-$ip" >> /opt/SCYLLA/SRV-$
 chmod 775 /opt/SCYLLA/SRV-$ip
 echo "*/5 * * * * /opt/SCYLLA/SRV-$ip" >> /var/spool/cron/root
 
+clear
+echo "ENTER PARA INSERIR NOVO IP OU CTRL+C PARA SAIR"; echo
+read continue
+
 done
+
