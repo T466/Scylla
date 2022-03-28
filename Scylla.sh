@@ -58,7 +58,3 @@ chmod 775 /opt/SCYLLA/SRV-$ip
 echo "*/5 * * * * /opt/SCYLLA/SRV-$ip" >> /var/spool/cron/root
 
 done
-
-
-
-
