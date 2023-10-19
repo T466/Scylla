@@ -39,7 +39,7 @@ clear
 echo
 echo "FAVOR INSERIR O IP DO SERVIDOR CLIENT"
 echo
-echo "Exempo: 192.168.0.99"
+echo "Exemplo: 192.168.0.99"
 read -p "IP : " ip; echo
 
 cd /root/.ssh
